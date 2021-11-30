@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red; /* useful for css layout debugging */
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 80%; /* affects all em declarations later */
+}
+
+h1, p {
+  background-color: #DDE0E3; /* Light gray */
+}
+
+h1 {
+  padding: 1em;
+  border: 1px solid #5D6063;
+}
+
+p {
+  padding: 1em 0 1em 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+em, strong {
+  background-color: #b2d6ff; /* Light blue */
+}
+
+div {
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 0 auto;
+}
