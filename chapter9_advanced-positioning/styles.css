@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example {
+  background-color: #d6e9fe;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.absolute {
+  position: relative;
+}
+
+.item img {
+  display: block;
+}
+
+.item-relative {
+  position: relative;
+  bottom: 2em;
+  right: 2em;
+}
+
+.item-absolute {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
