@@ -1,0 +1,81 @@
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.synopsis {
+  color: #7E8184; /* Light gray */
+  font-style: italic;
+}
+
+.synopsis em {
+  font-style: normal;
+}
+
+.button:link, 
+.button:visited {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5995da; /* Blue */
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #5d6063; /* Dark gray */
+
+  width: 200px;
+  margin: 1em auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #fff;
+  background-color: #76aeed; /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da; /* Blue */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #eeb75a; /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #f5cf8e; /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #eeb75a; /* Yellow */
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
+a:visited:active {
+  color: red;
+}
